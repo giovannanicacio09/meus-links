@@ -15,11 +15,12 @@
     --dark-pink:#E75480;
     --watermelon:#FC6C85;
     --rouge: #A94064;
+    --white-smoke:#EDDCC9;
 
    }
    
    body{
-       background-color:var(--dark-pink);
+       background-color:var(--white);
        height: 100vh;
        display: flex;
        justify-content: center;
@@ -28,7 +29,7 @@
    
    
    div{
-       background-color: var(--watermelon);
+       background-color: var(--flamingo);
        color: var(--white);
        width: 384px;
        padding: 40px;
@@ -45,3 +46,45 @@
        list-style: none;
        color: var(--white);
    }
+
+
+   h1{
+   
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+strong{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+ a{
+    display: block;
+    background-color: var(--dark-pink);
+    margin-bottom: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: var(--white);
+ }
+
+
+
+a:hover{
+    background-color: var(--white-smoke);
+    color: var(--dark-pink);
+    transition: 4s;
+}
